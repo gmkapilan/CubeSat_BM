@@ -5,7 +5,7 @@ import subprocess
 from picamera2 import Picamera2
 
 REPO_PATH = "/home/BrownianMotion/gitrepo/CubeSat_BM"     #Your github repo path: ex. /home/pi/FlatSatChallenge
-FOLDER_PATH = "/home/BrownianMotion/gitrepo/CubeSat_BM/captured_image.jpg"   #Your image folder path in your GitHub repo: ex. /Images
+FOLDER_PATH = "/home/BrownianMotion/gitrepo/CubeSat_BM/captured_image1.jpg"   #Your image folder path in your GitHub repo: ex. /Images
 def take_pic():
 	picam2 = Picamera2()
 	picam2.configure(picam2.create_still_configuration())
